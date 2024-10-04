@@ -5,7 +5,7 @@ import Home from './component/Home';
 import Skill from './component/Skill';
 import Profile from './component/Profile';
 import Contact from './component/Contact';
-import { BrowserRouter, Routes ,Route} from 'react-router-dom';
+import { Routes ,Route} from 'react-router-dom';
 import Ham from './component/Ham';
 
 function App() {
@@ -13,7 +13,6 @@ function App() {
     <section className='ba'>
       <Ham/>
       <div  className='layout'>
-        <BrowserRouter >
           <Profile/>
           <Routes>
             <Route exact path='/' element={<Home />} />
@@ -22,7 +21,6 @@ function App() {
             <Route path='/Contact' element={< Contact />} />
           </Routes>
           <Navbar/>
-        </BrowserRouter>
       </div>
     </section>
   );

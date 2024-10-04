@@ -5,7 +5,8 @@
 @media only screen and (max-width: 600px) {
     .mobnav{
         display:flex;
-        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
     }
     .hamburger{
         display: block;
@@ -14,13 +15,37 @@
         margin-top: 10px;
         margin-right: 20px;
         padding: 10px;
+        height: auto;
+        background-color: #ffffff;
+        width: fit-content;
     }
     .bar{
         width: 30px;
         height: 5px;
         background-color: #333;
         margin: 5px;
-        transition: background-color 0.3s ease;
+    }
+    @keyframes ham1 {
+        from{
+            rotate: 20deg;
+        }
+        to{
+            rotate: 90deg;
+        }
+    }
+    /* .opham{
+        display: block;
+        border: 2px solid #333;
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-right: 20px;
+        padding: 10px;
+        height: fit-content;
+        width: fit-content;
+    } */
+    .opham{
+        
+        animation: ham1 0.5s ease-in-out;
     }
     .close{
         display: none;
@@ -29,8 +54,39 @@
         display: block;
     }
     #navbar1 img{
-        height: 30px;
-        width: 30px;
+        height: 40px;
+        width: 40px;
         object-fit: cover;
+        margin-right: 10px;
+    }
+    #navbar1 ul li{
+        list-style-type: none;
+        margin: 2px;
+    }
+    #navbar1 ul a{
+        display: flex;
+        margin: 20px 5px ;
+        align-items: center;
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: black;
+    }
+    #navbar1{
+        width: 100%;   
+         
+    }
+    #navbar1 ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #ffffff;
+        display: block;
+        margin: 15px 20px;
+        padding: 10px;
+        border-radius: 10px;
+        filter: drop-shadow(0px 0px 20px rgb(180, 180, 180));
+    }
+    #navbar1 ul h4{
+        margin: 5px;
     }
 }

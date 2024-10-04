@@ -2,7 +2,7 @@ import React from 'react';
 import '../style/home.css'
 export default function Home() {
   return (
-    <main className='background1'>
+    <main className='background1' data-aos="fade-up">
       <div className="about">
         <div className='title'>
           <h1>About</h1>
@@ -17,28 +17,28 @@ export default function Home() {
           <h1>Skills</h1>
         </div>
         <ul>
-          <li >
+          <li data-aos="flip-down">
             <h2>React JS</h2>
             <p>
               React is a free and open-source front-end JavaScript library for building user interfaces based on components by Facebook Inc. 
               It is maintained by Meta and a community of individual developers and companies.
             </p>
           </li>
-          <li >
+          <li data-aos="flip-down">
             <h2>Mongo DB</h2>
             <p>
               MongoDB is a source-available, cross-platform, document-oriented database program. 
               Classified as a NoSQL database product, MongoDB utilizes JSON-like documents with optional schemas.
             </p>
           </li>
-          <li >
+          <li data-aos="flip-down">
             <h2>HTML5</h2>
             <p>
               Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. 
               It defines the content and structure of web content.
             </p>
           </li>
-          <li >
+          <li data-aos="flip-down">
             <h2>CSS</h2>
             <p>
               Cascading Style Sheets is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML.

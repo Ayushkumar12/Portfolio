@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 export default function Navbar() {
   return (
     <div className="body">
-        <nav id="navbar"  >
+        <nav id="navbar" data-aos="fade-left" >
           <ul>
               <li><Link to={'/'}><img src={home} alt="home" />
               <h4>Home</h4></Link></li>
