@@ -1,0 +1,36 @@
+.mobnav{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .mobnav{
+        display:flex;
+        justify-content: flex-end;
+    }
+    .hamburger{
+        display: block;
+        border: 2px solid #333;
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-right: 20px;
+        padding: 10px;
+    }
+    .bar{
+        width: 30px;
+        height: 5px;
+        background-color: #333;
+        margin: 5px;
+        transition: background-color 0.3s ease;
+    }
+    .close{
+        display: none;
+    }
+    .open{
+        display: block;
+    }
+    #navbar1 img{
+        height: 30px;
+        width: 30px;
+        object-fit: cover;
+    }
+}

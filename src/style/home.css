@@ -1,0 +1,134 @@
+.background1::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f0f0f0;
+}
+
+.background1::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+.background1::-webkit-scrollbar-thumb:hover {
+    background-color: #aaa;
+}
+
+.background1::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+}
+.background1{
+    height: 85dvh;
+    width: 80dvw;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin: 80px 20px;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: scroll;
+    align-items: flex-start;
+    filter: drop-shadow(0px 0px 20px rgb(180, 180, 180));
+}
+.about{
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+.title{
+    display: inline-flex;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+.title hr{
+    width: 50dvw;
+    margin: 0ch;
+}
+h1{
+    font-size: 2.5rem;
+    width: fit-content;
+    font-weight: bold;
+    margin: 20px 5px;
+}
+.about button{
+    padding: 10px 20px;
+    background-color: rgb(86, 36, 204);
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset  0px 0px 10px rgb(95, 95, 95);
+
+    filter: drop-shadow(5px 5px 5px rgb(86, 36, 204));
+    cursor: pointer;
+}
+.skill{
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    
+}
+.skill ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0ch;
+    justify-content: center;
+}
+.skill li{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgba(180, 180, 180, 0.603);
+    box-shadow: 5px 5px 5px rgb(178, 177, 179),
+    inset 0px 0px 5px rgb(221, 220, 223);
+    /* animation: box 2.5s linear forwards ;
+    animation-timeline: view();
+    animation-range-start: 10px; */
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    width: 25dvw;
+    max-width: 500px;
+    min-width: 100px;
+}
+.skill p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.skill h2,p{
+    margin: 5px;
+}
+@keyframes box{
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@media only screen and (max-width: 600px) {
+    .background1{
+        margin: 20px;
+        padding: 0px;
+        height: fit-content;
+        align-items: center;
+        width: fit-content;
+        overflow: visible;
+    }
+    .title hr{
+        display: none;
+    }
+    .skill *{
+        width: 70vw;
+    }
+    .skill li{
+        width: 70vw;
+    }
+    
+
+}
