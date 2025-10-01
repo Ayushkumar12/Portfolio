@@ -16,7 +16,6 @@ I am Ayush Kumar, a passionate web developer with a strong foundation in HTML, C
 - **Routing**: React Router DOM
 - **Styling**: CSS3 with custom animations
 - **SEO & Meta Tags**: React Helmet
-- **Database**: MongoDB (mentioned in skills)
 - **Version Control**: Git & GitHub
 
 ## 📁 Project Structure
