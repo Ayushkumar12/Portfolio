@@ -1,0 +1,40 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.outcard{
+    background-color: rgb(241, 241, 247);
+    height: auto;
+    width: auto;
+    max-height: 300px;
+    max-width: 200px;
+    margin: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem;
+    filter: drop-shadow(5px 5px 20px);
+}
+
+.outcard h2{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.outcard a{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(53, 53, 245);
+    color: whitesmoke;
+    padding: 1rem 0rem 1rem 0rem;
+    border-radius: 10px;
+    margin: 10px;
+    width: 100%;
+    text-align: center;
+}
