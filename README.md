@@ -4,7 +4,7 @@ A personal portfolio website showcasing my skills, projects, and experience as a
 
 ## 🚀 Live Demo
 
-Visit the live portfolio at: [https://www.ayush-portfolio.rf.gd/](https://www.ayush-portfolio.rf.gd/)
+Visit the live portfolio at: [https://portfolio-rosy-seven-75.vercel.app/](https://portfolio-rosy-seven-75.vercel.app/)
 
 ## 📖 About
 
@@ -78,7 +78,7 @@ portfolio/
 ## 🏗️ Projects Showcased
 
 1. **Portfolio Website** - This very website!
-   - [Live Demo](http://www.ayush-portfolio.rf.gd/)
+   - [Live Demo](https://portfolio-rosy-seven-75.vercel.app/)
    - [Source Code](https://github.com/Ayushkumar12/portfolio)
 
 2. **E-commerce Website (QuickStore)**
@@ -126,7 +126,7 @@ This will create a `build` folder with optimized production files.
 
 ## 📧 Contact
 
-- **Portfolio**: [https://www.ayush-portfolio.rf.gd/](https://www.ayush-portfolio.rf.gd/)
+- **Portfolio**: [https://portfolio-rosy-seven-75.vercel.app/](https://portfolio-rosy-seven-75.vercel.app/)
 - **GitHub**: [https://github.com/Ayushkumar12](https://github.com/Ayushkumar12)
 - **LinkedIn**: [Your LinkedIn profile] (Add if available)
 - **Email**: [Your email] (Add if available)

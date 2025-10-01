@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="background1" data-aos="fade-up">
       <Helmet>
-        <link rel="canonical" href="https://www.ayush-portfolio.rf.gd/" />
+        <link rel="canonical" href="https://portfolio-rosy-seven-75.vercel.app/" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="Ayush Kumar | Portfolio of a Passionate Developer & Designer"></meta>
         <meta name="twitter:description" content="Explore the portfolio of Ayush Kumar, a skilled developer and designer with a passion for creating innovative solutions." />
