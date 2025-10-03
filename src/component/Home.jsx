@@ -35,7 +35,7 @@ export default function Home() {
           <h1>Skills</h1>
         </div>
         <ul>
-          <li data-aos="flip-down">
+          <li>
             <h2>React JS</h2>
             <p>
               React is a free and open-source front-end JavaScript library for
@@ -44,7 +44,7 @@ export default function Home() {
               companies.
             </p>
           </li>
-          <li data-aos="flip-down">
+          <li >
             <h2>Mongo DB</h2>
             <p>
               MongoDB is a source-available, cross-platform, document-oriented
@@ -52,7 +52,7 @@ export default function Home() {
               utilizes JSON-like documents with optional schemas.
             </p>
           </li>
-          <li data-aos="flip-down">
+          <li>
             <h2>HTML5</h2>
             <p>
               Hypertext Markup Language is the standard markup language for
@@ -60,7 +60,7 @@ export default function Home() {
               the content and structure of web content.
             </p>
           </li>
-          <li data-aos="flip-down">
+          <li>
             <h2>CSS</h2>
             <p>
               Cascading Style Sheets is a style sheet language used for
