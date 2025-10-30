@@ -1,5 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import portfolio from "../asserts/portfolio.png";
+import Delightio from "../asserts/Delightio.png";
+import Techstore from "../asserts/tech-store.png";
 import "../style/card.css";
 
 export default function Card() {
@@ -12,7 +15,7 @@ export default function Card() {
         </div>
 
         <div className="product-content">
-          <h3 className="product-title" title="">Portfolio Site</h3>
+          <h3 className="product-title" title="">Portfolio</h3>
         </div>
         <div className="product-content">
           <span className="badge" title="">React js</span>
@@ -23,6 +26,7 @@ export default function Card() {
             className="add-btn"
             type="button"
             aria-label='de'
+            onClick={() => window.open('https://portfolio-rosy-seven-75.vercel.app/', '_blank')}
           >
             Visit Site
           </button>
@@ -30,6 +34,7 @@ export default function Card() {
             className="add-btn"
             type="button"
             aria-label='de'
+            onClick={() => window.open('https://github.com/Ayushkumar12/Portfolio', '_blank')}
           >
             Code Repository
           </button>
@@ -39,7 +44,7 @@ export default function Card() {
       <div className="outcard">
         <article className="product-card" aria-label="jhj">
         <div className="product-image">
-          <img src={portfolio} alt="" />
+          <img src={Delightio} alt="" />
         </div>
 
         <div className="product-content">
@@ -49,21 +54,63 @@ export default function Card() {
           <span className="badge" title="">React js</span>
           <span className="badge" title="">Node Js</span>
           <span className="badge" title="">Express JS</span>
+          <span className="badge" title="">Firebase</span>
         </div>
 
         <div className="product-footer">
-          <a href='https://delightio.vercel.app/'
-            target='blank'
+          <button
             className="add-btn"
+            type="button"
+            aria-label="de"
+            onClick={() => window.open('https://github.com/Ayushkumar12/Delightio', '_blank')}
           >
             Visit Site
-          </a>
-          <a href='https://github.com/Ayushkumar12/Delightio'
-            target='blank'
+          </button>
+          <button
             className="add-btn"
+            type="button"
+            aria-label="de"
+            onClick={() => window.open('https://github.com/Ayushkumar12/Delightio', '_blank')}
           >
             Code Repository
-          </a>
+          </button>
+
+        </div>
+      </article>
+      </div>
+      <div className="outcard">
+        <article className="product-card" aria-label="jhj">
+        <div className="product-image">
+          <img src={Techstore} alt="" />
+        </div>
+
+        <div className="product-content">
+          <h3 className="product-title" title="">Tech Store</h3>
+          </div>
+        <div className="product-content">
+          <span className="badge" title="">React js</span>
+          <span className="badge" title="">Express js</span>
+          <span className="badge" title="">Node js</span>
+          <span className="badge" title="">Firbase</span>
+        </div>
+
+        <div className="product-footer">
+          <button
+            className="add-btn"
+            type="button"
+            aria-label='de'
+            onClick={() => window.open('https://github.com/Ayushkumar12/Delightio', '_blank')}
+          >
+            Visit Site
+          </button>
+          <button
+            className="add-btn"
+            type="button"
+            aria-label='de'
+            onClick={() => window.open('https://github.com/Ayushkumar12/Delightio', '_blank')}
+          >
+            Code Repository
+          </button>
         </div>
       </article>
       </div>
@@ -75,35 +122,8 @@ export default function Card() {
 
         <div className="product-content">
           <h3 className="product-title" title="">Portfolio Site</h3>
-          <span className="badge" title="">React js</span>
-        </div>
-
-        <div className="product-footer">
-          <button
-            className="add-btn"
-            type="button"
-            aria-label='de'
-          >
-            Visit Site
-          </button>
-          <button
-            className="add-btn"
-            type="button"
-            aria-label='de'
-          >
-            Code Repository
-          </button>
-        </div>
-      </article>
-      </div>
-      <div className="outcard">
-        <article className="product-card" aria-label="jhj">
-        <div className="product-image">
-          <img src={portfolio} alt="" />
-        </div>
-
+          </div>
         <div className="product-content">
-          <h3 className="product-title" title="">Portfolio Site</h3>
           <span className="badge" title="">React js</span>
         </div>
 
@@ -112,6 +132,7 @@ export default function Card() {
             className="add-btn"
             type="button"
             aria-label='de'
+            onClick={() => window.open('https://github.com/Ayushkumar12/Delightio', '_blank')}
           >
             Visit Site
           </button>
@@ -119,18 +140,12 @@ export default function Card() {
             className="add-btn"
             type="button"
             aria-label='de'
+            onClick={() => window.open('https://github.com/Ayushkumar12/Delightio', '_blank')}
           >
             Code Repository
           </button>
         </div>
       </article>
-      </div>
-      
-      <div className='outcard'>
-        <h2>Restorent menu website</h2>
-        <a href='https://menu-omega-three.vercel.app/
-    '>visit site</a>
-        <a href='https://github.com/Ayushkumar12/menu'>code</a>
       </div>
     </section>
   );
